@@ -37,21 +37,47 @@ div.navbar-header a.brandname:hover
     padding-top: 25px;
 }
 
-.navbar-dafault .navbar-nav > li > a:hover
+/*.navbar-dafault .navbar-nav > li > a:hover
 {
     background-color: yellow;
-}
+}*/
 
 ul.nav a:hover 
 { 
     color: #579aff !important; 
 }
 
-/*div.navbar-header button.navbar-toggle
+
+/*@media (min-width: 768px)*/
+header.sb-page-header 
 {
-    margin-top: 20px
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: left;
+    font-size: 24px;
+    
 }
 
+.sb-page-header div.container
+{
+    display: block;
+}
+
+.sb-page-header 
+{
+    padding: 30px 15px;
+    color: rgba(255,255,255,.8);
+    background-color: #b84d45;
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+   
+}
+
+sb-page-header, header.marquee {
+    text-align: center;
+    background-image: url(/images/tile.png);
+}
 
 
 
