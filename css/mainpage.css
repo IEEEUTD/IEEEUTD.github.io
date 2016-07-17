@@ -3,16 +3,12 @@
 /***            section at the top of the webpage                ***/
 /*******************************************************************/
 
- /*To be done:
-        - Set up backgrounds to work using ng-img so orgs can more easily
-            swap in their own designs for the buttons
-*/
-
-
+/*  Navigation Bar CSS  */
 
 .navbar
 { 
-    background-color: #002358;
+    background-image: url(../images/tile.png);
+    background-color: #003484;
     padding-bottom: 12px;
 }
 
@@ -37,60 +33,110 @@ div.navbar-header a.brandname:hover
     padding-top: 25px;
 }
 
-/*.navbar-dafault .navbar-nav > li > a:hover
-{
-    background-color: yellow;
-}*/
-
 ul.nav a:hover 
 { 
     color: #579aff !important; 
 }
 
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
 
-/*@media (min-width: 768px)*/
-header.sb-page-header 
+/*  Header CSS  */
+.container2
 {
-    padding-top: 60px;
+    background-color: #252525;
+    background-image: url(../images/banner_v4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+div.sb-page-header
+{
+    padding-top: 200px;
+
+    background-color: #171721;
+    opacity: 0.80;
+    filter: alpha(opacity=65);
+    text-align: center;   
+}
+
+div.header-text
+{
     padding-bottom: 100px;
-    text-align: left;
-    font-size: 24px;
     
+    color: rgb(255,255,255);
+    opacity: 0%;
+
 }
 
-.sb-page-header div.container
+div.col-lg-12 .sb-page-header ul
 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: block;
+    width: 350px;
 }
 
-.sb-page-header 
+div.col-md-4
 {
-    padding: 30px 15px;
-    color: rgba(255,255,255,.8);
-    background-color: #b84d45;
-    margin-bottom: 50px;
-    font-size: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+li.header-text2
+{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     
-   
+    display: block;
+    width: 60%;
 }
 
-sb-page-header, header.marquee {
+div.header-text2 h2, div.header-text2 p
+{
     text-align: center;
-    background-image: url(/images/tile.png);
+}
+
+div.header-text3 h2, div.header-text3 p
+{
+    text-align: center;
+}
+
+div.header-text4 h2, div.header-text4 p
+{
+    text-align: center;
+}
+
+
+div.header-text2 a, div.header-text3 a, div.header-text4 a
+{
+    /*padding-left: 10px;*/
+    color: white;
+    text-decoration: none;
+    
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.row .container2
+{
+    margin-top:50px;
+    background-color: #252525;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
+body
+{
+    padding-bottom: 10000px;
+}
 
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" ng-app="MainPage">
  <head>
  	<!--The first 3 meta tags *must* come first in the head. 
@@ -23,7 +23,7 @@
 
  	<!--Angular Java Script Files-->
  	<script type="text/javascript" src="js/angular.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/app.js">    </script>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,11 +31,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
  </head>
  <body>
  	<!--Navigation-->
- 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
- 		<div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
  			<!--Brand and toggle get grouped for better mobile display-->
  			<div class="navbar-header">
  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,16 +53,19 @@
  			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                      <li>
-                        <a href="index1.html">Officers</a>
+                        <a href="officers.html">Officers</a>
                     </li>
                     <li>
-                        <a href="index2.html">Tutoring Hours</a>
+                        <a href="Tutoring_hours.html">Tutoring Hours</a>
                     </li>
                     <li>
-                        <a href="index3.html">Sponsors</a>
+                        <a href="Events.html">Events</a>
                     </li>
                     <li>
-                        <a href="index4.html">Join Us!</a>
+                        <a href="Events.html">Sponsors</a>
+                    </li>
+                    <li>
+                        <a href="Sponsors.html">Join Us!</a>
                     </li>
                 </ul>
             </div>
@@ -69,12 +73,35 @@
         </div>
         <!-- /.container -->
  	</nav>
-	<header class = "sb-page-header">
-		<div class="container">
-			<h1>Welcome</h1>
-			<p>a bootstrap 3 website mothafucka!!!</p>	
-		</div>
-	</header>
+
+    <artcle>
+    <div class= "row container2">
+            <div class="col-lg-12 sb-page-header">
+                <div>
+                    <div class="header-text">
+                        <img src="images/ieee_logo_white_small.png">
+                        <h1>Institute of Electrical and Electronics Engineers</h1>
+                        <h2>University of Texas at Dallas</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 header-text2">
+                        <h2><a href="#">Need Help with classes?<a></h2>
+                        <p><a href="#">Take a look at our tutoring hours><a></p>
+                    </div>
+                    <div class="col-md-4 header-text3">
+                        <h2><a href="#">Need Help with classes?<a></h2>
+                        <p><a href="#">Take a look at our tutoring hours><a></p>
+                    </div>
+                    <div class="col-md-4 header-text4">
+                        <h2><a href="#">Need Help with classes?<a></h2>
+                        <p><a href="#">Take a look at our tutoring hours><a></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </artcle>
+
     <footer>
         <div class="row">
             <div class="col-lg-12">
@@ -83,17 +110,22 @@
         </div>        
     </footer>
 
+    <!--jQuery-->
+    <script src="js/jquery.js"></script>
+
     <!--Bootstrap Core JavaScript-->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
     
-    <!-- Script to Activate the Carousel -->
+    
+    <!--Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
     </script>
+
+    <!--Script to initially hide the navbar-->
+
  </body>
  </html>
