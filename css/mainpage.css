@@ -3,22 +3,13 @@
 /***            section at the top of the webpage                ***/
 /*******************************************************************/
 
-
-
-/*  Global CSS  */
-html
-{
-
-}
-
-
 /*  Navigation Bar CSS  */
-
+/*------------------------------------------------------------------------------------------------*/
 .navbar
-{ 
+{
     background-image: url(../images/tile.png);
     background-color: #003484;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
 .navbar-default .navbar-brand
@@ -26,9 +17,15 @@ html
     color: white;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+    border-color: #0c1f3c;
+    margin-top: 0%;
+}
+
 .brandname
 {
-    padding-top: 25px;
+    padding-top: 26px;
 }
 
 div.navbar-header a.brandname:hover
@@ -53,8 +50,11 @@ ul.nav a:hover
     max-height: 200px;
     overflow-x: hidden;
 }
+/*-----------------------------------------------------------------------------------------------*/
 
 /*  Header CSS  */
+
+/*-----------------------------------------------------------------------------------------------*/
 .container2
 {
     background-color: #252525;
@@ -76,19 +76,9 @@ div.sb-page-header
 div.header-text
 {
     padding-bottom: 100px;
-    
     color: rgb(255,255,255);
     opacity: 0%;
 
-}
-
-div.col-lg-12 .sb-page-header ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: block;
-    width: 350px;
 }
 
 div.col-md-4
@@ -96,7 +86,7 @@ div.col-md-4
     margin-left: 0%;
     margin-right: 0%;
 
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 div.header-text2 h2, div.header-text2 p
@@ -134,7 +124,8 @@ div.header-text2 p > a.button, div.header-text3 p > a.button, div.header-text4 p
     -webkit-transition: all ease-in-out 0.3s;
 }
 
-div.header-text2 p > a.button:hover, div.header-text3 p > a.button:hover, div.header-text4 p > a.button:hover
+div.header-text2 p > a.button:hover, div.header-text3 p > a.button:hover, 
+div.header-text4 p > a.button:hover
 {
     background-color: #e73d44;
     transition: all ease-in-out 0.3s;
@@ -146,109 +137,27 @@ div.header-text2 p > a.button:hover, div.header-text3 p > a.button:hover, div.he
     margin-top:50px;
     background-color: #252525;
 }
+/*-----------------------------------------------------------------------------------------------*/
 
+.container3
+{
+    padding-bottom: 200px
+}
 
+div.mid-text
+{
+    padding-bottom: 50px;
+    
+}
+
+.container4
+{
+    background-color: #eef5f9;
+     padding-bottom: 200px;
+}
 
 
 body
 {
     padding-bottom: 10000px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-.blurbRow {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.blurbLeft {
-    text-decoration: none;
-    display: inline-block;
-    box-sizing: border-box;
-    box-shadow: 0 0 .9375em rgba(0,0,0,.3),0 0 1.125em rgba(0,0,0,.3);
-    perspective: 200px;
-}
-
-.blurbRight {
-    text-decoration: none;
-    display: inline-block;
-    box-sizing: border-box;
-    box-shadow: 0 0 .9375em rgba(0,0,0,.3),0 0 1.125em rgba(0,0,0,.3);
-    perspective: 200px;
-}
-
-.blurbLeftAnchor {
-    text-decoration: none;
-    color: black;
-    display: block;
-    position: relative;
-    float: left;
-    width: 50%;
-}
-
-.blurbRightAnchor {
-    text-decoration: none;
-    color: black;
-    display: block;
-    position: relative;
-    float: right;
-    width: 50%;
-}
-
-.blurbLeftPT1 {
-    padding: 2em;
-    background: repeating-radial-gradient(circle at right center, #008094 0,#00bfff 8%,#008094 12%);
-    position: relative;
-    text-decoration: none;
-    display: block;
-}
-
-.blurbLeftPT2 {
-    padding: 2em;
-    background: repeating-radial-gradient(circle at left center, #948000 0,#ffbf00 8%,#948000 12%);
-    position: relative;
-    text-decoration: none;
-    display: block;
-    height: 316px;
-}
-
-.blurbRightPT1 {
-    padding: 2em;
-    background: repeating-radial-gradient(circle at right center, #948000 0,#ffbf00 8%,#948000 12%);
-    position: relative;
-    text-decoration: none;
-    display: block;
-}
-
-.blurbRightPT2 {
-    padding: 2em;
-    background: repeating-radial-gradient(circle at left center, #008094 0,#00bfff 8%,#008094 12%);
-    position: relative;
-    text-decoration: none;
-    display: block;
-}
-
-.blurbLeftTitle {
-    text-align: center;
-    clear: both;
-    box-shadow: 0 0 .9375em rgba(0,0,0,.3),0 0 1.125em rgba(0,0,0,.3);
-    perspective: 200px;    
-}
-
-
-.blurbRightTitle {
-    text-align: center;
-    clear: both;
-    box-shadow: 0 0 .9375em rgba(0,0,0,.3),0 0 1.125em rgba(0,0,0,.3);
-    perspective: 200px;
-}*/
