@@ -1,0 +1,96 @@
+/********************* Emphasized Blurbs Section *******************/
+/***  This section governs the style of the emphasized "updates" ***/
+/***            section at the top of the webpage                ***/
+/*******************************************************************/
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*  Navigation Bar CSS  */
+
+/*------------------------------------------------------------------------------------------------*/
+.navbar
+{
+    background-image: url(../images/tile.png);
+    background-color: #003484;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-brand
+{
+    color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+    border-color: #0c1f3c;
+    margin-top: 0%;
+}
+
+.brandname
+{
+    padding-top: 26px;
+}
+
+div.navbar-header a.brandname:hover
+{
+    color: #579aff !important; 
+}
+    
+.navbar-default .navbar-nav > li > a
+{
+    color: white;
+    padding-top: 25px;
+}
+
+ul.nav a:hover 
+{ 
+    color: #579aff !important; 
+}
+
+.scrollable-menu 
+{
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*  Disclaimer css */
+
+/*----------------------------------------------------------------------------------------------*/
+div.Disclaimer
+{
+    width: 100%;
+    float: left;
+
+    text-align: center;
+
+    background-color: white;
+    color: #3e4c5e;
+
+    padding-top: 360px;
+    padding-bottom: 340px;
+
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*  Footer css */
+
+/*----------------------------------------------------------------------------------------------*/
+footer div.row div.col-lg-12
+{
+    color: white;
+    text-decoration: none;
+
+    background-image: url(../images/tile.png);
+    background-color: #003484; 
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    margin-top: 1px;
+}
