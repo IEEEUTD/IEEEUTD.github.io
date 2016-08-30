@@ -350,7 +350,10 @@ div.sidebar
     {
         width: 100%;
         text-align: center;
-        float: none;
+    }
+    div.upcoming_events
+    {
+        padding-left: 0px;
     }
 }
 
