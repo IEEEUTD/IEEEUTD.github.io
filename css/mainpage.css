@@ -350,6 +350,7 @@ div.sidebar
     {
         width: 100%;
         text-align: center;
+        float: none;
     }
 }
 
