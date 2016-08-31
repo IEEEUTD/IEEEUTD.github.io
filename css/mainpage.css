@@ -283,6 +283,7 @@ div.middle-text2 p > a.button:hover
     div.middle-text2
     {
         background-color: #3e4c5e;
+        padding-bottom: 20px;
     }
 
     div.middle-text2 p > a.button
@@ -350,6 +351,7 @@ div.sidebar
     {
         width: 100%;
         text-align: center;
+        padding-bottom: 32px;
     }
     div.upcoming_events
     {
