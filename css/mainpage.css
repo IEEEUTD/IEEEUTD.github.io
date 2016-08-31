@@ -274,6 +274,10 @@ div.middle-text2 p > a.button:hover
 
 @media all and (max-width: 990px)
 {
+    .container4
+    {
+        background-color: #eef5f9;
+    }
     div.middle-text1, div.middle-text2
     {
         width: 100%;
@@ -288,13 +292,6 @@ div.middle-text2 p > a.button:hover
 
     div.middle-text2 p > a.button
     {
-        color: white;
-        text-decoration: none;
-    
-        background: rgba(255,255,255, 0.2);
-
-        padding: 1.5% 2% 1.5% 2%;
-        border-radius: 40px;
         float: none; 
     }
 }
@@ -347,6 +344,10 @@ div.sidebar
 
 @media all and (max-width: 990px)
 {
+    .container5
+    {
+        background-color: #eef5f9;
+    }
     div.sidebar, div.upcoming_events
     {
         width: 100%;
