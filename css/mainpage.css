@@ -277,6 +277,7 @@ div.middle-text2 p > a.button:hover
     .container4
     {
         background-color:  #3e4c5e; 
+        margin-left: 0px;
     }
     div.middle-text1, div.middle-text2
     {
@@ -347,6 +348,7 @@ div.sidebar
     .container5
     {
         background-color: #3e4c5e;
+        margin-left: 0px;
     }
     div.sidebar, div.upcoming_events
     {
