@@ -131,8 +131,6 @@ div.Digital_Circuits_Section h3, div.ENA_Section h3, div.Signals_Section h3
     padding-bottom: 40px;
     margin-bottom: 0px;
     margin-top: 0px;
-
-
 }
 
 table
@@ -154,9 +152,18 @@ table
     color: black;
     text-align: left;
     background-color: #eef5f9;
+    padding: 10.5px 20px 10.5px 20px;
+    transition: all ease-in-out 0.3s;
+    width: 23%;
     padding-left: 25px;
 }
-
+.tablecolor2:hover
+{
+    color: white;
+    background-color: #e73d44;
+    
+    -webkit-transition: all ease-in-out 0.3s;
+}
 
 .tablecolor3
 {
@@ -183,6 +190,21 @@ footer div.row div.col-lg-12
     padding-left: 40px;
 }
 
+a.button 
+{
+    color: black;
+    text-decoration: none;
+    
+    float: left;
+}
+
+a.button:hover 
+{
+    color: white;
+    text-decoration: none;
+}
+
+
 p > a.button 
 {
     color: white;
@@ -199,5 +221,4 @@ p > a.button:hover
 
     transition: all ease-in-out 0.3s;
     -webkit-transition: all ease-in-out 0.3s;
-
 }
