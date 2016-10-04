@@ -95,6 +95,18 @@ div.button_section
     padding-right: 40px;
     padding-bottom: 20px;
     margin-bottom: 0px;
+    float: left;
+}
+
+div.button_section2
+{
+    background-color: #3e4c5e;
+    width: 30%;
+    float: right;
+    padding-top: 17px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    margin-bottom: 0px;
     float: right;
 }
 
@@ -111,24 +123,38 @@ div.title_section
     float:left; 
 }
 
+div.title_section2
+{
+    background-color: #3e4c5e;
+    color:white ; 
+    padding-top: 3px;
+    padding-left: 40px;
+    width: 70%;
+    display: block;
+    float:left; 
+}
 @media all and (max-width: 990px)
 {
+   
     div.title_section
+    {
+         padding-left: 0px;
+    }
+     div.title_section2
     {
          padding-left: 0px;
     }
 }
 
-div.Digital_Circuits_Section h3, div.ENA_Section h3, div.Signals_Section h3
+div.Digital_Circuits_Section h3, div.ENA_Section h3, div.Signals_Section h3, div.EC_Section h3
 {
     background-color: #3e4c5e;
     margin-left: 0px;
-    color:white ; 
-
+    color: white;
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -144,24 +170,22 @@ table
     background-color: #7b8ca2;
     text-align: right;
     padding-right: 25px;
+    width:23.5%;
 
 }
 
-.tablecolor2
+.tablecolor2 
 {
     color: black;
     text-align: left;
     background-color: #eef5f9;
-    padding: 10.5px 20px 10.5px 20px;
     transition: all ease-in-out 0.3s;
-    width: 23%;
-    padding-left: 25px;
+    width:20%;
 }
 .tablecolor2:hover
 {
     color: white;
     background-color: #e73d44;
-    
     -webkit-transition: all ease-in-out 0.3s;
 }
 
@@ -180,28 +204,31 @@ table
 /*----------------------------------------------------------------------------------------------*/
 footer div.row div.col-lg-12
 {
-    color: #3e4c5e;
+    color: white;
     text-decoration: none;
 
-    background-color: #eef5f9; 
+    background-color: #3e4c5e; 
 
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
+    padding-top: 5
 }
 
-a.button 
+th > a.button 
 {
     color: black;
     text-decoration: none;
-    
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
     float: left;
 }
 
-a.button:hover 
+th > a.button:hover
 {
     color: white;
-    text-decoration: none;
+
 }
 
 
