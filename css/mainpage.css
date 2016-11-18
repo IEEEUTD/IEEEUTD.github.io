@@ -317,7 +317,7 @@ div.upcoming_events
 {
 
     float: left;
-    width: 50%;
+    width: 55%;
 
     background-color: #3e4c5e;
 
@@ -335,7 +335,7 @@ div.upcoming_events h2
 
 div.sidebar
 {
-    width: 50%;
+    width: 45%;
     float: left;
 
     text-align: left;
