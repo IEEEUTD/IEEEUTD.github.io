@@ -25,7 +25,7 @@
     color: white;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
 {
     border-color: #0c1f3c;
     margin-top: 0%;
@@ -38,21 +38,21 @@
 
 div.navbar-header a.brandname:hover
 {
-    color: #579aff !important; 
+    color: #579aff !important;
 }
-    
+
 .navbar-default .navbar-nav > li > a
 {
     color: white;
     padding-top: 25px;
 }
 
-ul.nav a:hover 
-{ 
-    color: #579aff !important; 
+ul.nav a:hover
+{
+    color: #579aff !important;
 }
 
-.scrollable-menu 
+.scrollable-menu
 {
     height: auto;
     max-height: 200px;
@@ -70,7 +70,7 @@ ul.nav a:hover
     background-image: url(../images/banner_v4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 div.sb-page-header
@@ -79,7 +79,7 @@ div.sb-page-header
     background-image: linear-gradient(to bottom,
     rgba(28, 32, 42, 0.95),
     rgba(28, 32, 42, 0.65));
-    text-align: center;   
+    text-align: center;
 }
 
 div.header-text
@@ -119,7 +119,7 @@ div.header-text2 a, div.header-text3 a, div.header-text4 a
 {
     color: white;
     text-decoration: none;
-    
+
     margin-left: 0%;
     margin-right: 0%;
 }
@@ -171,7 +171,7 @@ div.header-text2 p > a.button, div.header-text3 p > a.button, div.header-text4 p
     border-radius: 40px;
 }
 
-div.header-text2 p > a.button:hover, div.header-text3 p > a.button:hover, 
+div.header-text2 p > a.button:hover, div.header-text3 p > a.button:hover,
 div.header-text4 p > a.button:hover
 {
     background-color: #e73d44;
@@ -208,7 +208,7 @@ article div.row .container3
 div.mid-text
 {
     padding-bottom: 50px;
-    
+
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -218,16 +218,16 @@ div.mid-text
 /*----------------------------------------------------------------------------------------------*/
 .container4
 {
-    background-color:  #7b8ca2; 
+    background-color:  #7b8ca2;
 }
 
 div.middle-text1
 {
     color: #3e4c5e;
     text-decoration: none;
-    text-align: left; 
+    text-align: left;
 
-    background-color: #eef5f9; 
+    background-color: #eef5f9;
 
     padding-top: 45px;
     padding-bottom: 60px;
@@ -236,14 +236,14 @@ div.middle-text1
     margin-left: 0%;
     margin-right: 0%;
     width: 60%;
-    float: left;  
+    float: left;
 }
 
 div.middle-text2
 {
     color: white;
     text-decoration: none;
-    text-align: center;   
+    text-align: center;
 
     background-color: #7b8ca2;
 
@@ -253,7 +253,7 @@ div.middle-text2
     margin-left: 0%;
     margin-right: 0%;
     width: 40%;
-    float: right;    
+    float: right;
 }
 
 div.middle-text2 p > a.button
@@ -280,7 +280,7 @@ div.middle-text2 p > a.button:hover
 {
     .container4
     {
-        background-color:  #3e4c5e; 
+        background-color:  #3e4c5e;
         margin-left: 0px;
     }
     div.middle-text1, div.middle-text2
@@ -297,7 +297,7 @@ div.middle-text2 p > a.button:hover
 
     div.middle-text2 p > a.button
     {
-        float: none; 
+        float: none;
     }
 }
 
@@ -308,7 +308,7 @@ div.middle-text2 p > a.button:hover
 /*----------------------------------------------------------------------------------------------*/
 
 .container5
-{ 
+{
     color: white;
     background-color: #3e4c5e;
 }
@@ -329,7 +329,7 @@ div.upcoming_events
 }
 
 div.upcoming_events h2
-{   
+{
     text-decoration: none;
 }
 
@@ -349,7 +349,7 @@ div.sidebar
     padding-right: 20px;
 }
 
-div.sidebar p > a.button 
+div.sidebar p > a.button
 {
     color: white;
     text-decoration: none;
@@ -389,6 +389,58 @@ div.sidebar p > a.button:hover
     }
 }
 
+/* CSS for responsive iframe */
+/* ========================= */
+
+/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
+#Iframe-Master-CC-and-Rs {
+  max-width: 768px;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+
+  /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
+    -webkit-overflow-scrolling: touch; overflow: auto; */
+
+}
+
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as % -- sets aspect ratio */
+/* YouTube video aspect ratio */
+.responsive-wrapper-wxh-572x612 {
+  padding-bottom: 107%;
+}
+
+/* general styles */
+/* ============== */
+.set-padding {
+  padding: 0px;
+}
+.set-margin {
+  margin: 10px;
+}
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
 /*----------------------------------------------------------------------------------------------*/
 
 /*  Footer css */
@@ -399,7 +451,7 @@ footer div.row div.col-lg-12
     color: #3e4c5e;
     text-decoration: none;
 
-    background-color: #eef5f9; 
+    background-color: #eef5f9;
 
     padding-top: 20px;
     padding-bottom: 20px;
