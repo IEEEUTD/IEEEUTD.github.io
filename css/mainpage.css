@@ -90,7 +90,7 @@ div.header-text
 
 }
 
-div.col-md-4
+div.col-md-6
 {
     margin-left: 0%;
     margin-right: 0%;
@@ -316,14 +316,14 @@ div.middle-text2 p > a.button:hover
 div.upcoming_events
 {
 
-    float: left;
-    width: 55%;
+    float: right;
+    //width: 55%;
 
     background-color: #3e4c5e;
 
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 40px;
+    padding-right: 15%;
 
     text-align: left;
 }
@@ -335,7 +335,7 @@ div.upcoming_events h2
 
 div.sidebar
 {
-    width: 45%;
+    width: 50%;
     float: left;
 
     text-align: left;
@@ -345,7 +345,7 @@ div.sidebar
 
     padding-top: 20px;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 125px;
     padding-right: 20px;
 }
 
