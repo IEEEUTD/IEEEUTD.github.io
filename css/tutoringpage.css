@@ -197,6 +197,10 @@ table
 }
 
 
+.mirror-link>a:hover {
+  color: white !important;
+}
+
 /*----------------------------------------------------------------------------------------------*/
 
 /*  Footer css */
@@ -270,6 +274,11 @@ p > a.button:hover
   max-width: 768px;
   max-height: 100%;
   overflow: hidden;
+}
+
+#Iframe-Master-CC-and-Rs > a:link,a:visited {
+  text-decoration: none;
+  color: #579aff;
 }
 
 /* inner wrapper: make responsive */
